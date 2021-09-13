@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "signals_and_deadlocks"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Sonnabend <lucas.sonnabend@cantab.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gevent = "^21.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
