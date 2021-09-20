@@ -7,9 +7,7 @@ RuntimeError: cannot release un-acquired lock
 ```
 
 It is based on an actual bug I saw in production systems, it took some time to debug,
-and the explanation is quite interesting. You can read more in the article here:
-
-TODO: article link
+and the explanation is quite interesting. [You can read more in the article here](https://betterprogramming.pub/how-i-solved-a-challenging-concurrency-bug-in-python-cbf635d4bea9?sk=9eea8d7c854c052485e6a58afe0d41b7).
 
 ## Getting started 
 
